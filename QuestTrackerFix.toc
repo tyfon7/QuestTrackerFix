@@ -1,0 +1,6 @@
+## Interface: 70200
+## Title: QuestTrackerFix
+## Notes: Restores the pre-7.2 behavior of clicking on a quest and opening the quest details, not the map.
+## Version: 1.0.0
+
+main.lua
