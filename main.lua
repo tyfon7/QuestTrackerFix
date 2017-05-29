@@ -1,5 +1,4 @@
 -- This is Blizzard's old implementation, via github.com/tekkub/wow-ui-source
-local orig_OnBlockHeaderClick = QUEST_TRACKER_MODULE.OnBlockHeaderClick;
 function QUEST_TRACKER_MODULE:OnBlockHeaderClick(block, mouseButton)
     if ( ChatEdit_TryInsertQuestLinkForQuestID(block.id) ) then
         return;
